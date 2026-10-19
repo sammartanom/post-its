@@ -1,11 +1,10 @@
 {
-  "name": "pufsd-dlc-living-questions",
-  "version": "1.0.0",
+  "name": "post-its",
   "private": true,
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "check": "wrangler deploy --dry-run"
+    "deploy": "wrangler deploy"
   },
-  "devDependencies": { "wrangler": "^4.0.0" }
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
 }
